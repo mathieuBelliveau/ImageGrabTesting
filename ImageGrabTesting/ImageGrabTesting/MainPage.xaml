@@ -8,7 +8,7 @@
             <Label Text="FilePicker Demo!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Button Text="Pick Image" Clicked="Button_Clicked" />
-        <Image x:Name="resultImage" />
+        <Image x:Name="resultImage" BackgroundColor="Red" WidthRequest="250" HeightRequest="250" Source="http://10.0.2.2:1234/BaconBurger.jpg"/>
     </StackLayout>
 
 </ContentPage>
